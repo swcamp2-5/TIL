@@ -18,7 +18,8 @@
 ```shell
 git init
 ```
-- `init` : .git directory를 생성하기 위한 명령어
+- `init` : `.git directory`를 생성하기 위한 명령어
+    - 이미 `.git` 폴더가 있다면 입력하지 않아도 된다.
 
 
 ```shell
@@ -41,6 +42,7 @@ git remote add origin https://github.com/sample.git
 ```
 
 - `remote` : 원격저장소주소를 추가한다 origin이라는 별명으로, 실제주소는 `https://....`이다.
+    - 이미 원격저장소를 추가했다면 입력하지 않아도 된다.
 
 
 ```shell
